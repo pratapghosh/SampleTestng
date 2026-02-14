@@ -3,7 +3,6 @@ pipeline {
             label 'docker-agent'
         }
 
-
     stages {
         stage('Checkout') {
             steps {
