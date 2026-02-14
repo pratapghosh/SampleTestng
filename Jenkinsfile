@@ -3,9 +3,6 @@ pipeline {
             label 'docker-agent'
         }
 
-    triggers {
-         githubPush()
-      }
 
     stages {
         stage('Checkout') {
