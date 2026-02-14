@@ -2,7 +2,6 @@ pipeline {
     agent {
             label 'docker-agent'
         }
-
     triggers {
          githubPush()
       }
