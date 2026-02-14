@@ -13,4 +13,9 @@ public class SampleClass {
     public void anotherSampleTest() {
         System.out.println("This is another sample test.");
     }
+
+    @Test
+    public void yetAnotherSampleTest() {
+        System.out.println("This is yet another sample test.");
+    }
 }
